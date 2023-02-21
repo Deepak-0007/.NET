@@ -3,19 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _1to100_number_print
+namespace stringfromuserinput
 {
     class Program
     {
-        
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
-            int n1 = Convert.ToInt32(Console.ReadLine());
-            int n = Convert.ToInt32(Console.ReadLine());
-            for (int i = n1; i <= n; i++)
-                Console.Write(+i+"\t");    
-        }
-        
+               Console.WriteLine("Enter String:");
+
+      // Create a string variable and get user input from the keyboard and store it in the variable
+      string Name = Console.ReadLine();
+      string Name2 = Console.ReadLine();
+
+      // Print the value of the variable (userName), which will display the input value
+      Console.WriteLine("Username is: " + Name);
+      Console.WriteLine("Username is: " + Name2);
+      Console.WriteLine(Name + Name2);
+      Console.WriteLine(Name.Length);
+      Console.WriteLine(Name.ToUpper());
+      Console.WriteLine(Name.ToLower());
+      Console.ReadLine();
+
+
 
     }
+
+  }
 }
+
+        
+    
+
