@@ -23,9 +23,6 @@ namespace stringfromuserinput
       Console.WriteLine(Name.ToUpper());
       Console.WriteLine(Name.ToLower());
       Console.ReadLine();
-
-
-
     }
 
   }
